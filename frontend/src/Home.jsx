@@ -2,7 +2,7 @@ function Home() {
     return (
         <div className="w-full max-w-5xl text-white py-28 flex flex-col md:flex-row justify-center items-center gap-10">
             <div className="md:w-1/2">
-                <img src="https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg" className="w-full rounded-xl" />
+                <img src="https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-1200-80.jpg" className="w-full rounded-xl" alt="home-image" />
             </div>
 
             <div className="md:w-1/2">
