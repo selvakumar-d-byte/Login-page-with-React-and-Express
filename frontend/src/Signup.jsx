@@ -29,7 +29,7 @@ function Signup() {
             return
         }
 
-        const response = await axios.post('http://localhost:5000/signup', { "username": uname, "email": email, "password": password })
+        const response = await axios.post('https://login-page-with-react-and-express-1.onrender.com/signup', { "username": uname, "email": email, "password": password })
 
         const data = response.data
 
